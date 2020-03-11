@@ -2,7 +2,7 @@
 | :---     |
 | s198061 |
 | Code Design and Data Structures Assessment |
-| Link List |
+| Double-Linked List |
 
 ## I. Requirements
 
