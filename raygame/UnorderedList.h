@@ -9,6 +9,7 @@ public:
 	void insertLast(const T&) override;
 };
 
+//insert the node first
 template<typename T>
 void UnorderedList<T>::insertFirst(const T& Info)
 {
@@ -28,6 +29,7 @@ void UnorderedList<T>::insertFirst(const T& Info)
 	this->m_count++;
 }
 
+//insert the node last
 template<typename T>
 void UnorderedList<T>::insertLast(const T& Info)
 {

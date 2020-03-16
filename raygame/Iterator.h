@@ -12,6 +12,7 @@ protected:
 	Node<T>* current;
 };
 
+//create a node
 template<typename T>
 inline Iterator<T>::Iterator(Node<T> * ptr)
 {

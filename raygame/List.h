@@ -17,18 +17,21 @@ protected:
 	Node<T>* m_last;
 };
 
+//return to the front node
 template<typename T>
 T List<T>::front()
 {
 	return m_first->Info;
 }
 
+//return to the back node
 template<typename T>
 T List<T>::back()
 {
 	return m_last->Info;
 }
 
+//
 template<typename T>
 bool List<T>::isEmpty()
 {
